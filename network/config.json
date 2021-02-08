@@ -8,8 +8,8 @@
     "text": "T. Howe"
   },
   "text": {
-    "more": "Lorem ipsum",
-    "intro": "Lorem ipsum",
+    "more": "This interactive network can help you discover who provides grants and donations to organizations in different categories. To learn more about social justice non-profits and where they find donors in the corporate world, use the search tool.",
+    "intro": "This interactive network can help you discover who provides grants and donations to organizations in different categories.",
     "title": "Grants by Category"
   },
   "legend": {
@@ -30,9 +30,9 @@
     "drawingProperties": {
       "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
-      "defaultLabelBGColor": "#ddd",
+      "defaultLabelBGColor": "#111111",
       "activeFontStyle": "bold",
-      "defaultLabelColor": "#000",
+      "defaultLabelColor": "#ffffff",
       "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
