@@ -8,9 +8,9 @@
     "text": "T. Howe"
   },
   "text": {
-    "more": "Lorem ipsum",
-    "intro": "Lorem ipsum",
-    "title": "Grants by Category"
+    "more": "A targeted network showing likely social justice grant sources. Created with Gephi.",
+    "intro": "A targeted network showing likely social justice grant sources",
+    "title": "Likely Grant Sources"
   },
   "legend": {
     "edgeLabel": "Contribution",
@@ -24,7 +24,7 @@
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "Category"
   },
   "sigma": {
     "drawingProperties": {
