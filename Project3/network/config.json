@@ -8,8 +8,8 @@
     "text": "T. Howe"
   },
   "text": {
-    "more": "A targeted network showing likely social justice grant sources. Created with Gephi.",
-    "intro": "A targeted network showing likely social justice grant sources",
+    "more": "A targeted network showing likely social justice grant sources based on donation overlap in related areas of poverty and homelessness.\n\nCompanies donating to related social justice causes\n\nM\u0026T\t\t600,000\nStandard\t\t600,000\nStryker\t\t500,000\nBASF\t\t95,000\nBancorp\t\t50,000\nPNC\t\t31,000\nDuke Energy\t\t10,300\nSiemens\t\t8,000\nFINRA\t\t5,000\nSantander\t\t3,500\nAmerisourceBergen\t3,000\nQuicken\t\t2,500\n\nNon-Profit organizations and how much they received\n\nAlpha Project for the Homeless\t501000\nSouthern Poverty Law Center\t\t500000\nNetwork for Social Justice\t\t350000\nSocial Justice Collaborative\t\t255000\nNurses for Social Justice\t\t100000\nUnited Against Poverty\t\t95000\nSouthern Coalition\t\t68000\nGeorgia Alliance\t\t12000\nInnovations for Poverty Action\t\t8000\nShriver Center on Poverty Law\t\t5800\nAttack Poverty\t\t\t4500\nAthletes United for Social Justice\t3500\nHomeless Advocacy Project\t\t3000\nTzedek Social Justice Fund\t\t2500\n",
+    "intro": "A targeted network showing likely social justice grant sources based on donation overlap in related areas of poverty and homelessness.",
     "title": "Likely Grant Sources"
   },
   "legend": {
