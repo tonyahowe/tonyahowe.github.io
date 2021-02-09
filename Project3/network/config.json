@@ -3,7 +3,7 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "https://tonyahowe.github.io/Project3/network/images/logo.png",
+    "file": "https://tonyahowe.github.io/Project3/network/images/legend.png",
     "link": "",
     "text": "T. Howe"
   },
@@ -14,10 +14,7 @@
   },
   "legend": {
     "edgeLabel": "Contribution",
-    "colorLabel": {
-      "Category",
-      "file": "https://tonyahowe.github.io/Project3/network/images/legend.png"
-    }
+    "colorLabel": "Category",
     "nodeLabel": "Organization"
   },
   "features": {
