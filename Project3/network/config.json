@@ -14,7 +14,10 @@
   },
   "legend": {
     "edgeLabel": "Contribution",
-    "colorLabel": "Category",
+    "colorLabel": {
+      "Category",
+      "file": "https://tonyahowe.github.io/Project3/network/images/legend.png"
+    }
     "nodeLabel": "Organization"
   },
   "features": {
