@@ -8,14 +8,14 @@
     "text": "T. Howe"
   },
   "text": {
-    "more": "This interactive network can help you discover who provides grants and donations to organizations in different categories. To learn more about social justice non-profits and where they find donors in the corporate world, use the search tool.",
-    "intro": "This interactive network can help you discover who provides grants and donations to organizations in different categories.",
-    "title": "Grants by Category"
+    "more": "\n",
+    "intro": "Horror films in IMDb connected by meta-horror topic in summary or storyline. Nodes show keywords and films connected to keywords.",
+    "title": "Draft: Horror Films about Art"
   },
   "legend": {
-    "edgeLabel": "Contribution",
-    "colorLabel": "Category",
-    "nodeLabel": "Organization"
+    "edgeLabel": "",
+    "colorLabel": "number of connections",
+    "nodeLabel": "Keyword"
   },
   "features": {
     "search": true,
@@ -30,9 +30,9 @@
     "drawingProperties": {
       "defaultEdgeType": "curve",
       "defaultHoverLabelBGColor": "#002147",
-      "defaultLabelBGColor": "#111111",
+      "defaultLabelBGColor": "#ddd",
       "activeFontStyle": "bold",
-      "defaultLabelColor": "#ffffff",
+      "defaultLabelColor": "#000",
       "labelThreshold": 10,
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
