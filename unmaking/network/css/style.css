@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #515052;
+	background-color: #eee;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -61,11 +61,11 @@ canvas#sigma_bg_1 {
     top:0;
     right:0;
 	width: 240px;
-	background-color: #515052;
+	background-color: #fff;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(81, 80, 82,0.8);
-	border-left: 1px solid #000103;
+	background-color:rgba(255,255,255,0.8);
+	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;	
 	z-index: 1;
 }
@@ -76,10 +76,10 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane .headertext {
-	color: #76424B;
+	color: #000;
 	margin-bottom: 5px;
 	height: 14px;
-	border-bottom: 1px solid #000103;
+	border-bottom: 1px solid #999;
 	padding: 0px 0 10px 0;
 	font-size:16px;
 	font-weight:bold;
@@ -87,7 +87,7 @@ canvas#sigma_bg_1 {
 
 
 #attributepane .returntext em {
-	/* background-image: url('../images/sprite.png'); */
+	background-image: url('../images/sprite.png');
 	background-repeat: no-repeat;
 	display: block;
 	width: 20px;
@@ -107,12 +107,12 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane .close .c {
-	border-top: 2px solid #000103;
+	border-top: 2px solid #999;
 	padding: 10px 0 14px 0;
 }
 
 #attributepane .close em {
-/* background-image: url('../images/sprite.png'); */
+background-image: url('../images/sprite.png');
 background-repeat: no-repeat;
 background-position: -11px -13px;
 display: block;
@@ -132,7 +132,7 @@ float: left;
 	height:85%;
 	overflow-y: scroll;
 	overflow-x: hidden;
-	border-bottom:1px solid #000103;
+	border-bottom:1px solid #999;
 }
 
 #attributepane .name {
@@ -149,7 +149,7 @@ font-weight:bold;
 
 #attributepane .data .plus {
 background-repeat: no-repeat;
-/* background-image: url('../images/sprite.png'); */
+background-image: url('../images/sprite.png');
 background-position: -171px -122px;
 width: 22px;
 height: 20px;
@@ -173,7 +173,7 @@ font-size:14px;
 }
 
 .left-close {
-/* background-image: url('../images/fancybox_sprite.png'); */
+background-image: url('../images/fancybox_sprite.png');
 margin-left:-37px;
 z-index:99999;
 cursor: pointer;
@@ -196,7 +196,7 @@ font-size:14px;
 #jisc {
 width: 71px;
 height: 56px;
-/* background-image: url('../images/jisc-logo-small.png'); */
+background-image: url('../images/jisc-logo-small.png');
 background-repeat: no-repeat;
 display:inline-block;
 }
@@ -208,7 +208,7 @@ display:inline-block;
 #oii {
 width: 227px;
 height: 56px;
-/* background-image: url('../images/oii_text.png'); */
+background-image: url('../images/oii_text.png');
 background-repeat: no-repeat;
 display:inline-block;
 margin-right:10px;
@@ -234,8 +234,8 @@ display: none;
 margin-top: 50px;
 margin-left: 25px;
 background:#fff;
-background-color:rgba(81, 80, 82,0.8);
-border:1px solid #000103;
+background-color:rgba(255,255,255,0.8);
+border:1px solid #ccc;
 z-index:20;
 position:fixed;
 top:0;
@@ -266,13 +266,13 @@ padding: 6px 0 10px 0;
 
 
 #search {
-	border-top: 1px solid #000103;
+	border-top: 1px solid #999;
 	padding: 20px 0 0px 2px;
 }
 
 #search input[name=search] {
-border: 1px solid #000103;
-background-color: #515052;
+border: 1px solid #999;
+background-color: #fff;
 padding: 5px 7px 4px 7px;
 width: 205px;
 color: #000;
@@ -285,7 +285,7 @@ color: #000;
 #search .state {
 width: 14px;
 height: 14px;
-/* background-image: url('../images/sprite.png'); */
+background-image: url('../images/sprite.png');
 float: right;
 margin-top: 6px;
 cursor: pointer;
@@ -338,7 +338,7 @@ user-select: none;
 	color: #fff;
 	cursor: pointer;
 	background-color: #999;
-	/* background-image: url('../images/sprite.png'); */
+	background-image: url('../images/sprite.png');
 	background-repeat: no-repeat;
 	background-position: 200px -144px;
 }
