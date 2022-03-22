@@ -14,16 +14,16 @@
   },
   "legend": {
     "edgeLabel": "",
-    "colorLabel": "",
+    "colorLabel": "Type",
     "nodeLabel": "Keyword"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
-    "groupByEdgeDirection": false,
+    "groupByEdgeDirection": true,
     "imageAttribute": false
   },
   "sigma": {
