@@ -14,8 +14,8 @@
   },
   "legend": {
     "edgeLabel": "",
-    "colorLabel": "Type",
-    "nodeLabel": "Keyword"
+    "colorLabel": "",
+    "nodeLabel": ""
   },
   "features": {
     "search": true,
