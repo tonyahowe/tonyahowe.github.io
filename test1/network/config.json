@@ -9,7 +9,7 @@
   },
   "text": {
     "more": "\n",
-    "intro": "Horror films in IMDb connected by meta-horror topic in summary or synopsis. Nodes show keywords and films connected to keywords. Size of node indicates number of connections to other nodes. Size of edge indicates number of times the keyword appears in summary or synopsis.",
+    "intro": "Horror films in IMDb connected by meta-horror topic in summary or storyline. Nodes show keywords and films connected to keywords. Size of node indicates number of connections to other nodes.",
     "title": "Draft: Horror Films about Art"
   },
   "legend": {

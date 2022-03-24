@@ -53,20 +53,20 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane {
-  display: block;
+   	display: block;	
 	display: none;
-	position:absolute;
-  height:auto;
-  bottom:0;
-  top:0;
-  right:0;
+    position:absolute;
+    height:auto;
+    bottom:0;
+    top:0;
+    right:0;
 	width: 240px;
 	background-color: #fff;
 	margin: 0;
 	word-wrap: break-word;
 	background-color:rgba(255,255,255,0.8);
 	border-left: 1px solid #ccc;
-	padding: 0px 18px 0px 18px;
+	padding: 0px 18px 0px 18px;	
 	z-index: 1;
 }
 
@@ -196,7 +196,7 @@ font-size:14px;
 #jisc {
 width: 71px;
 height: 56px;
-/* background-image: url('../images/jisc-logo-small.png'); */
+background-image: url('../images/jisc-logo-small.png');
 background-repeat: no-repeat;
 display:inline-block;
 }
@@ -208,7 +208,7 @@ display:inline-block;
 #oii {
 width: 227px;
 height: 56px;
-/* background-image: url('../images/oii_text.png'); */
+background-image: url('../images/oii_text.png');
 background-repeat: no-repeat;
 display:inline-block;
 margin-right:10px;
@@ -349,7 +349,7 @@ background-position: 200px -8px;
 
 #attributeselect .list {
 	display: none;
-	border: 1px solid
+	border: 1px solid 
 	#999;
 	padding: 6px;
 	height: 150px;
@@ -364,7 +364,7 @@ background-position: 200px -8px;
 	margin-left: 240px;
 	margin-top:-164px;
 	color: white;
-}
+}	
 
 #attributeselect .list a {
 display:block;
@@ -448,7 +448,7 @@ margin-left: 5px;
 }
 
 #copyright {
-	margin:0 auto;
+	margin:0 auto;	
 	position: fixed;
 	right: 40px;
 	bottom: 25px;
@@ -498,12 +498,12 @@ display: none;
 
 #zoom .z[rel=in] {
 	background-image: url('../images/zoom_in.png');
-	background-position:center;
+	background-position:center; 
 }
 
 #zoom .z[rel=out] {
 	background-image: url('../images/zoom_out.png');
-	background-position:center;
+	background-position:center; 
 }
 
 .line {
@@ -544,7 +544,7 @@ display: none;
 }
 
 #information .button.plus {
-background-position: -91px -122px;
+background-position: -91px -122px; 
 }
 
 #information .button.moins {
@@ -574,3 +574,4 @@ background-position: -45px -147px;
 cursor: pointer;
 display: none;
 }
+
