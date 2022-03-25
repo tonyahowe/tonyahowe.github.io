@@ -19,12 +19,12 @@
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "genres",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
-    "imageAttribute": false
+    "imageAttribute": "year"
   },
   "sigma": {
     "drawingProperties": {
