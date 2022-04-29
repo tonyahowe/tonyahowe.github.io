@@ -9,17 +9,17 @@
   },
   "text": {
     "more": "\n",
-    "intro": "Horror films in IMDb connected by meta-horror topic in summary or storyline. Nodes show keywords and films connected to keywords. Size of node indicates number of connections to other nodes.",
-    "title": "Draft: Horror Films about Art"
+    "intro": "Horror films about sculpture in IMDb. Nodes show tropes, films, and genres. Size of node indicates average rating of the film.  Width of edge indicates significance of sculpture.",
+    "title": "When Your Darlings Bite Back"
   },
   "legend": {
-    "edgeLabel": "",
-    "colorLabel": "",
-    "nodeLabel": "Keyword"
+    "edgeLabel": "Connections",
+    "colorLabel": "Number of incoming connections",
+    "nodeLabel": "Films, Countries, Genres, Tokens"
   },
   "features": {
-    "search": true,
-    "groupSelectorAttribute": "Degree",
+    "search": false,
+    "groupSelectorAttribute": false,
     "hoverBehavior": "dim"
   },
   "informationPanel": {
