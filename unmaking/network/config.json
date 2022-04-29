@@ -13,8 +13,8 @@
     "title": "When Your Darlings Bite Back"
   },
   "legend": {
-    "edgeLabel": "Connections",
-    "colorLabel": "Number of incoming connections",
+    "edgeLabel": "A connection",
+    "colorLabel": "Connection degree",
     "nodeLabel": "Films, Countries, Genres, Tokens"
   },
   "features": {
