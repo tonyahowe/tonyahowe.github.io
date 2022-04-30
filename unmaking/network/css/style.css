@@ -133,6 +133,7 @@ float: left;
 
 #attributepane .name {
 font-size: 14px;
+color: #fdf7ed;
 cursor: default;
 padding-bottom: 10px;
 padding-top: 18px;
@@ -140,7 +141,7 @@ font-weight:bold;
 }
 
 #attributepane .data {
-
+color: #fdf7ed;
 }
 
 #attributepane .data .plus {
@@ -153,6 +154,7 @@ display: block;
 
 #attributepane .link {
 padding: 0 0 0 4px;
+color: #661e15;
 }
 
 #attributepane .link li {
@@ -521,7 +523,7 @@ margin: 0 0 4px 0;
 #information .button {
 width: 14px;
 height: 14px;
-background-image: url('../images/sprite.png');
+background-image: url('../images/close.png');
 border: 1px solid #999;
 display: inline-block;
 *display: inline;
@@ -544,7 +546,7 @@ background-position: -131px -122px;
 background-color: #fff;
 padding: 4px 4px 4px 25px;
 cursor: pointer;
-background-image: url('../images/sprite.png');
+background-image: url('../images/close.png');
 background-repeat: no-repeat;
 background-position: -167px -118px;
 position: absolute;
@@ -557,7 +559,7 @@ display: none;
 position: absolute;
 width: 20px;
 height: 16px;
-background-image: url('../images/sprite.png');
+background-image: url('../images/close.png');
 background-repeat: no-repeat;
 background-position: -45px -147px;
 cursor: pointer;
