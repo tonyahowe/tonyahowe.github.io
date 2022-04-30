@@ -9,17 +9,17 @@
   },
   "text": {
     "more": "\n",
-    "intro": " In \u003ci\u003eMen, Women, and Chainsaws\u003c/i\u003e, film historian Carol Clover not only inaugurated the concept of the “final girl,” but also pointed out that horror film may be the most self-reflexive of all genres. It is consumed with the act of looking. Can data prove it? What does horror film look like, by the numbers, around the world? This project examines the history of feature-length cinema from the perspective of making--and unmaking.\n\nData for this project was gathered from IMDb, the world’s largest crowd- and industry-sourced publicly available film database. In particular, it incorporates country of origin information and text from film summaries and synopses. Text data has been mined for keywords related to several categories of making: art, painting, photography, recording or filmmaking, sculpture and the plastic arts, creating, writing, theater, and dance.\n\nUse this network to search for horror films about making by title, country, genre, and keyword.",
+    "intro": "\u003cp\u003eIn \u003ci\u003eMen, Women, and Chainsaws\u003c/i\u003e, film historian Carol Clover not only inaugurated the concept of the “final girl,” but also pointed out that horror film may be the most self-reflexive of all genres. It is consumed with the act of looking. Can data prove it? What does horror film look like, by the numbers, around the world? This project examines the history of feature-length cinema from the perspective of making--and unmaking.\u003c/p\u003e\n\n\u003cp\u003eData for this project was gathered from IMDb, the world’s largest crowd- and industry-sourced publicly available film database. In particular, it incorporates country of origin information and text from film summaries and synopses. Text data has been mined for keywords related to several categories of making: art, painting, photography, recording or filmmaking, sculpture and the plastic arts, creating, writing, theater, and dance.\u003c/p\u003e\n\n\u003cp\u003eUse this network to search for horror films about making by title, country, genre, and keyword.\u003c/p\u003e",
     "title": ""
   },
   "legend": {
-    "edgeLabel": "A connection",
+    "edgeLabel": "A connection, weighted film to keyword count",
     "colorLabel": "Connection degree",
     "nodeLabel": "Films, Countries, Genres, Tokens"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": false,
+    "groupSelectorAttribute": "node_type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {

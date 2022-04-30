@@ -37,7 +37,7 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #fdf7ed;
+	background-color: #eee;
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
@@ -53,7 +53,7 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane {
-   	display: block;
+   	display: block;	
 	display: none;
     position:absolute;
     height:auto;
@@ -61,12 +61,12 @@ canvas#sigma_bg_1 {
     top:0;
     right:0;
 	width: 240px;
-	background-color: #661e15;
+	background-color: #fff;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(119,66,75,0.8);
+	background-color:rgba(255,255,255,0.8);
 	border-left: 1px solid #ccc;
-	padding: 0px 18px 0px 18px;
+	padding: 0px 18px 0px 18px;	
 	z-index: 1;
 }
 
@@ -76,10 +76,10 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane .headertext {
-	color: #fdf7ed;
+	color: #000;
 	margin-bottom: 5px;
 	height: 14px;
-	border-bottom: 1px solid #4c4343;
+	border-bottom: 1px solid #999;
 	padding: 0px 0 10px 0;
 	font-size:16px;
 	font-weight:bold;
@@ -87,6 +87,8 @@ canvas#sigma_bg_1 {
 
 
 #attributepane .returntext em {
+	background-image: url('../images/sprite.png');
+	background-repeat: no-repeat;
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -110,6 +112,8 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane .close em {
+background-image: url('../images/sprite.png');
+background-repeat: no-repeat;
 background-position: -11px -13px;
 display: block;
 width: 24px;
@@ -133,7 +137,6 @@ float: left;
 
 #attributepane .name {
 font-size: 14px;
-color: #fdf7ed;
 cursor: default;
 padding-bottom: 10px;
 padding-top: 18px;
@@ -141,10 +144,12 @@ font-weight:bold;
 }
 
 #attributepane .data {
-color: #fdf7ed;
+
 }
 
 #attributepane .data .plus {
+background-repeat: no-repeat;
+background-image: url('../images/sprite.png');
 background-position: -171px -122px;
 width: 22px;
 height: 20px;
@@ -154,20 +159,6 @@ display: block;
 
 #attributepane .link {
 padding: 0 0 0 4px;
-color: #661e15;
-text-decoration: underline;
-}
-
-
-#attributepane .visited {
-padding: 0 0 0 4px;
-color: #661e15;
-}
-
-#attributepane .hover {
-padding: 0 0 0 4px;
-color: #661e15;
-background-color: #fff;
 }
 
 #attributepane .link li {
@@ -176,14 +167,13 @@ cursor:pointer;
 }
 
 #attributepane .p {
-	color: #fdf7ed;
 padding-top: 10px;
 font-weight: bold;
 font-size:14px;
 }
 
 .left-close {
-background-image: url('../images/close.png');
+background-image: url('../images/fancybox_sprite.png');
 margin-left:-37px;
 z-index:99999;
 cursor: pointer;
@@ -230,7 +220,8 @@ margin-right:10px;
 }
 
 #maintitle {
-width: 10%;
+width: 100%;
+height: 72px;
 background-repeat: no-repeat;
 margin-bottom:20px;
 }
@@ -243,7 +234,8 @@ display: none;
 margin-top: 50px;
 margin-left: 25px;
 background:#fff;
-background-color:rgba(255,255,255,0.2);
+background-color:rgba(255,255,255,0.8);
+border:1px solid #ccc;
 z-index:20;
 position:fixed;
 top:0;
@@ -274,7 +266,7 @@ padding: 6px 0 10px 0;
 
 
 #search {
-	border-top: 0px solid #999;
+	border-top: 1px solid #999;
 	padding: 20px 0 0px 2px;
 }
 
@@ -346,6 +338,7 @@ user-select: none;
 	color: #fff;
 	cursor: pointer;
 	background-color: #999;
+	background-image: url('../images/sprite.png');
 	background-repeat: no-repeat;
 	background-position: 200px -144px;
 }
@@ -356,7 +349,7 @@ background-position: 200px -8px;
 
 #attributeselect .list {
 	display: none;
-	border: 1px solid
+	border: 1px solid 
 	#999;
 	padding: 6px;
 	height: 150px;
@@ -371,7 +364,7 @@ background-position: 200px -8px;
 	margin-left: 240px;
 	margin-top:-164px;
 	color: white;
-}
+}	
 
 #attributeselect .list a {
 display:block;
@@ -403,7 +396,7 @@ width: 20px;
 height: 20px;
 float: left;
 background-repeat: no-repeat;
-background-color: #fdf7ed;
+background-image: url('../images/sprite.png');
 }
 
 #legend dl {
@@ -449,11 +442,13 @@ background-position: -51px -13px;
 }
 
 #mainpanel .moreinformation {
-margin-left: 0px;
+background: url('../images/info.png');
+background-repeat: no-repeat;
+margin-left: 5px;
 }
 
 #copyright {
-	margin:0 auto;
+	margin:0 auto;	
 	position: fixed;
 	right: 40px;
 	bottom: 25px;
@@ -486,9 +481,9 @@ display: none;
 
 #zoom .z {
 	background:#fff;
-	background-color:rgba(255,255,255,0.3);
-	width: 40px;
-	height: 40px;
+	background-color:rgba(255,255,255,0.7);
+	width: 60px;
+	height: 60px;
 	cursor: pointer;
 	border:1px solid #ccc;
 	float:left;
@@ -503,12 +498,12 @@ display: none;
 
 #zoom .z[rel=in] {
 	background-image: url('../images/zoom_in.png');
-	background-position:center;
+	background-position:center; 
 }
 
 #zoom .z[rel=out] {
 	background-image: url('../images/zoom_out.png');
-	background-position:center;
+	background-position:center; 
 }
 
 .line {
@@ -537,7 +532,7 @@ margin: 0 0 4px 0;
 #information .button {
 width: 14px;
 height: 14px;
-background-image: url('../images/close.png');
+background-image: url('../images/sprite.png');
 border: 1px solid #999;
 display: inline-block;
 *display: inline;
@@ -549,7 +544,7 @@ display: none;
 }
 
 #information .button.plus {
-background-position: -91px -122px;
+background-position: -91px -122px; 
 }
 
 #information .button.moins {
@@ -560,7 +555,7 @@ background-position: -131px -122px;
 background-color: #fff;
 padding: 4px 4px 4px 25px;
 cursor: pointer;
-background-image: url('../images/close.png');
+background-image: url('../images/sprite.png');
 background-repeat: no-repeat;
 background-position: -167px -118px;
 position: absolute;
@@ -573,9 +568,10 @@ display: none;
 position: absolute;
 width: 20px;
 height: 16px;
-background-image: url('../images/close.png');
+background-image: url('../images/sprite.png');
 background-repeat: no-repeat;
 background-position: -45px -147px;
 cursor: pointer;
 display: none;
 }
+
