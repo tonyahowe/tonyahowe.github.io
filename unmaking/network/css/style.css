@@ -155,6 +155,19 @@ display: block;
 #attributepane .link {
 padding: 0 0 0 4px;
 color: #661e15;
+text-decoration: underline;
+}
+
+
+#attributepane .visited {
+padding: 0 0 0 4px;
+color: #661e15;
+}
+
+#attributepane .hover {
+padding: 0 0 0 4px;
+color: #661e15;
+background-color: #fff;
 }
 
 #attributepane .link li {
@@ -163,6 +176,7 @@ cursor:pointer;
 }
 
 #attributepane .p {
+	color: #fdf7ed;
 padding-top: 10px;
 font-weight: bold;
 font-size:14px;
