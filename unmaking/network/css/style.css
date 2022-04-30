@@ -64,7 +64,7 @@ canvas#sigma_bg_1 {
 	background-color: #fff;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(255,255,255,0.8);
+	background-color:rgba(255,254,241,0.1);
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;
 	z-index: 1;
@@ -76,10 +76,10 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane .headertext {
-	color: #000;
+	color: #4c4343;
 	margin-bottom: 5px;
 	height: 14px;
-	border-bottom: 1px solid #999;
+	border-bottom: 1px solid #4c4343;
 	padding: 0px 0 10px 0;
 	font-size:16px;
 	font-weight:bold;
@@ -332,7 +332,6 @@ user-select: none;
 	color: #fff;
 	cursor: pointer;
 	background-color: #999;
-	background-image: url('../images/sprite.png');
 	background-repeat: no-repeat;
 	background-position: 200px -144px;
 }
