@@ -233,7 +233,7 @@ display: none;
 margin-top: 50px;
 margin-left: 25px;
 background:#fff;
-background-color:rgba(255,255,255,0.8);
+background-color:rgba(255,254,241,0.8);
 border:1px solid #ccc;
 z-index:20;
 position:fixed;
@@ -265,7 +265,7 @@ padding: 6px 0 10px 0;
 
 
 #search {
-	border-top: 1px solid #999;
+	border-top: 0px solid #999;
 	padding: 20px 0 0px 2px;
 }
 
@@ -441,8 +441,6 @@ background-position: -51px -13px;
 }
 
 #mainpanel .moreinformation {
-background: url('../images/info.png');
-background-repeat: no-repeat;
 margin-left: 5px;
 }
 
