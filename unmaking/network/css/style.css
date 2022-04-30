@@ -24,6 +24,8 @@ html,body {
 	font-size: 12px;
 	font-family: sans-serif;
 	line-height:1.25em;
+	background-image: url('../images/vase_of_flowers_1961.6.1.jpg')
+	background-repeat: no-repeat;
 }
 
 .sigma-parent {
