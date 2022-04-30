@@ -24,8 +24,7 @@ html,body {
 	font-size: 12px;
 	font-family: sans-serif;
 	line-height:1.25em;
-	background-image: url('../images/vase_of_flowers_1961.6.1.jpg')
-	background-repeat: no-repeat;
+
 }
 
 .sigma-parent {
@@ -39,7 +38,8 @@ html,body {
 	height: 100%;
 	top: 0;
 	left: 0;
-	background-color: #fdf7ed;
+	
+	background-image: url('../images/vase_of_flowers_1961.6.1.jpg')
 	background-position: center center;
 	background-repeat: no-repeat;
 	-webkit-touch-callout: none;
