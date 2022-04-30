@@ -4,7 +4,7 @@
   "data": "data.json",
   "logo": {
     "file": "https://tonyahowe.github.io/unmaking/network/images/Title.png",
-    "link": "http://tonyahowe.com",
+    "link": "",
     "text": "Tonya Howe"
   },
   "text": {
@@ -13,13 +13,13 @@
     "title": ""
   },
   "legend": {
-    "edgeLabel": "A connection, weighted film to keyword count",
+    "edgeLabel": "",
     "colorLabel": "",
     "nodeLabel": "Films, Countries, Genres, Tokens"
   },
   "features": {
     "search": true,
-    "groupSelectorAttribute": "node_type",
+    "groupSelectorAttribute": "node type",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
