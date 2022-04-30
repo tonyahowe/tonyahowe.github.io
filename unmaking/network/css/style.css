@@ -87,8 +87,6 @@ canvas#sigma_bg_1 {
 
 
 #attributepane .returntext em {
-	background-image: url('../images/sprite.png');
-	background-repeat: no-repeat;
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -112,8 +110,6 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane .close em {
-background-image: url('../images/sprite.png');
-background-repeat: no-repeat;
 background-position: -11px -13px;
 display: block;
 width: 24px;
@@ -234,7 +230,6 @@ margin-top: 50px;
 margin-left: 25px;
 background:#fff;
 background-color:rgba(255,254,241,0.8);
-border:1px solid #ccc;
 z-index:20;
 position:fixed;
 top:0;
