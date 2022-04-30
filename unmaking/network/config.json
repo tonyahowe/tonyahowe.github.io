@@ -3,13 +3,13 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "https://tonyahowe.github.io/unmaking/network/images/Title.png",
-    "link": "",
+    "file": "../images/Title.png",
+    "link": "http://tonyahowe.com",
     "text": "Tonya Howe"
   },
   "text": {
     "more": "\n",
-    "intro": "\u003cp\u003eIn \u003ci\u003eMen, Women, and Chainsaws\u003c/i\u003e, film historian Carol Clover not only inaugurated the concept of the “final girl,” but also pointed out that horror film may be the most self-reflexive of all genres. It is consumed with the act of looking. Can data prove it? This project examines the history of feature-length cinema from the perspective of making--and unmaking.\u003c/p\u003e\n\u003cp\u003e\u003c/p\u003e\n\u003cp\u003eData for this project was gathered from IMDb, the world’s largest crowd- and industry-sourced publicly available film database. In particular, it incorporates country of origin information and text from film summaries and synopses. Text data has been mined for keywords related to several categories of making: art, painting, photography, recording or filmmaking, sculpture and the plastic arts, creating, writing, theater, and dance.\u003c/p\u003e\n\u003cp\u003e\u003c/p\u003e\n\u003cp\u003eUse this network to explore horror films about making by title, country, genre, and keyword.\u003c/p\u003e",
+    "intro": "\u003cp\u003eIn \u003ci\u003eMen, Women, and Chainsaws\u003c/i\u003e, film historian Carol Clover not only inaugurated the concept of the “final girl,” but also pointed out that horror film may be the most self-reflexive of all genres. It is consumed with the act of looking. Can data prove it? This project examines the history of feature-length cinema from the perspective of making--and unmaking.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eData for this project was gathered from IMDb, the world’s largest crowd- and industry-sourced publicly available film database. In particular, it incorporates country of origin information and text from film summaries and synopses. Text data has been mined for keywords related to several categories of making: art, painting, photography, recording or filmmaking, sculpture and the plastic arts, creating, writing, theater, and dance.\u003c/p\u003e\n\u003cp\u003e\u0026nbsp;\u003c/p\u003e\n\u003cp\u003eUse this network to explore horror films about making by title, country, genre, and keyword.\u003c/p\u003e",
     "title": ""
   },
   "legend": {
