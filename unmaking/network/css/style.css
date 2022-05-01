@@ -264,7 +264,7 @@ margin-top: 0px;
 margin-left: 50px;
 background:#fff;
 background-color:rgba(255,255,255,0.5);
-border:1px solid #ccc;
+border: none;
 z-index:20;
 position:fixed;
 top:0;
@@ -275,8 +275,8 @@ padding: 0px 0 0 0;
 }
 
 #mainpanel .col {
-width: 240px;
-padding: 18px 18px 18px 18px;
+width: 215px;
+padding: 25px 18px 18px 18px;
 margin: 0;
 
 }
