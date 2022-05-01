@@ -3,7 +3,7 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "file": "../images/Title.png",
+    "file": "https://tonyahowe.github.io/unmaking/network/images/Title.png",
     "link": "http://tonyahowe.com",
     "text": "Tonya Howe"
   },
