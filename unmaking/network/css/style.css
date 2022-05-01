@@ -54,18 +54,17 @@ canvas#sigma_bg_1 {
 }
 
 #attributepane {
-   	display: block;
+  display: block;
 	display: none;
-    position:absolute;
-    height:auto;
-    bottom:0;
-    top:0;
-    right:0;
+  position:absolute;
+  height:auto;
+  bottom:0;
+  top:0;
+  right:0;
 	width: 240px;
-	background-color: #173d57;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(90,94,102,0.4);
+	background-color:rgba(255,254,241,0.4);
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;
 	z-index: 1;
@@ -262,8 +261,6 @@ display: none;
 #mainpanel {
 margin-top: 0px;
 margin-left: 50px;
-background:#fff;
-background-color:rgba(255,255,255,0.5);
 border: none;
 z-index:20;
 position:fixed;
@@ -275,7 +272,7 @@ padding: 0px 0 0 0;
 }
 
 #mainpanel .col {
-width: 215px;
+width: 240px;
 padding: 25px 18px 18px 18px;
 margin: 0;
 
