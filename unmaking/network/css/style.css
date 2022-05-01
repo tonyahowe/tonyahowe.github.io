@@ -62,10 +62,10 @@ canvas#sigma_bg_1 {
     top:0;
     right:0;
 	width: 240px;
-	background-color: #173d57;
+	background-color: #5a5e66;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(255,255,255,0.5);
+	background-color:rgba(90,94,102,0.5);
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;
 	z-index: 1;
@@ -175,10 +175,10 @@ a:link {
 
 a:visited {
   text-decoration: none;
+	color: #000000;
 }
 
 a:hover {
-  text-decoration: overline;
 	font-weight: bolder;
 	background-color: #77424b;
 	color: #fdf7ed;
@@ -214,7 +214,11 @@ font-size:14px;
 	margin-left:25px;
 	margin-bottom:25px;
 	position:fixed;
+	width: 200px;
+	height: 50px;
 	bottom:0;
+	display:inline-block;
+	font-size: 12px;
 }
 
 #jisc {
@@ -255,8 +259,8 @@ display: none;
 }
 
 #mainpanel {
-margin-top: 50px;
-margin-left: 25px;
+margin-top: 225px;
+margin-left: 50px;
 background:#fff;
 background-color:rgba(255,255,255,0.5);
 border:1px solid #ccc;
