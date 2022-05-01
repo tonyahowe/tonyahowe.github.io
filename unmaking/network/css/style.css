@@ -62,10 +62,10 @@ canvas#sigma_bg_1 {
     top:0;
     right:0;
 	width: 240px;
-	background-color: #fff;
+	background-color: #173d57;
 	margin: 0;
 	word-wrap: break-word;
-	background-color:rgba(255,255,255,0.3);
+	background-color:rgba(255,255,255,0.5);
 	border-left: 1px solid #ccc;
 	padding: 0px 18px 0px 18px;
 	z-index: 1;
@@ -167,6 +167,29 @@ padding-top: 2px;
 cursor:pointer;
 }
 
+
+a:link {
+  text-decoration: underline;
+	color: #4c4343;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: overline;
+	font-weight: bolder;
+	background-color: #77424b;
+	color: #fdf7ed;
+}
+
+a:active {
+  text-decoration: none;
+	background-color: #77424b;
+}
+
+
 #attributepane .p {
 padding-top: 10px;
 font-weight: bold;
@@ -234,7 +257,8 @@ display: none;
 #mainpanel {
 margin-top: 50px;
 margin-left: 25px;
-background-image: url('../images/vase_of_flowers_1961.6.1.jpg')
+background:#fff;
+background-color:rgba(255,255,255,0.5);
 border:1px solid #ccc;
 z-index:20;
 position:fixed;
